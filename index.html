@@ -8,9 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles2.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Agregamos jQuery -->
     <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
     <div class="container">
         <header id="encabezado">
             <h1 class="logo">
@@ -24,12 +27,42 @@
                 <ul id="menu">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="#seccion-principal">Acerca de mí</a></li>
-                    <li><a href="#trabajos">Trabajos</a></li>
-                    <li><a href="index.html">Servicios</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </header>
+
+        <section class="seccion-carrusel">
+            <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+            <script src="carrusel.js"></script>
+            <div class="slick-carousel">
+                <div class="slick-slide slide-acerca">
+                    <div class="texto-imagen">
+                        <h3>Acerca de mí</h3>
+                        <!-- Contenido de Acerca de mí -->
+                    </div>
+                    <img src="img/imagen acerca.jpg" alt="Imagen Acerca de Mí">
+                </div>
+                <div class="slick-slide slide-habilidades">
+                    <div class="texto-imagen">
+                        <h3>Habilidades</h3>
+                        <p>Texto sobre tus habilidades.</p>
+                        <a href="#habilidades">Ver videos</a> <!-- Botón para ir a la sección de habilidades -->
+                    </div>
+                    <img src="img/imagen habilidades.jpg" alt="Imagen Habilidades">
+                </div>
+                <div class="slick-slide slide-contacto">
+                    <div class="texto-imagen">
+                        <h3>Contacto</h3>
+                        <!-- Contenido de Contacto -->
+                    </div>
+                    <img src="img/imagen contacto.jpg" alt="Imagen Contacto">
+                </div>
+            </div>
+        </section>
+        
+        
 
         <main id="seccion-principal">
             <section class="seccion-1">
@@ -42,11 +75,15 @@
                     <img src="img/imagen portada.jpg" alt="imagen portada"/>
                 </div>
             </section>
-            <section class="seccion-2">
-                <img src="img/carrusel-img.png" alt=""/>
-            </section>
         </main>
         
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="habilidades-video">
+                <!-- Aquí puedes insertar tus videos de habilidades -->
+            </div>
+        </section>
+
         <footer class="form-header">
             <h1>Contacto</h1>
             <p><em>¡Esperamos tu consulta!</em></p>
@@ -58,9 +95,6 @@
             </div>
         </footer>
     </div>
-    <footer class="prueba">
-        <p>para ver si se puede tener 2 footer</p>
-    </footer>
+ 
 </body>
 </html>
-
