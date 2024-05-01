@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <title>Mi primera web</title>
@@ -33,37 +33,31 @@
             </nav>
         </header>
 
-        <section class="seccion-carrusel">
-            <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
-            <script src="carrusel.js"></script>
-            <div class="slick-carousel">
-                <div class="slick-slide slide-acerca">
-                    <div class="texto-imagen">
-                        <h3>Acerca de mí</h3>
-                        <!-- Contenido de Acerca de mí -->
-                    </div>
-                    <img src="img/imagen acerca.jpg" alt="Imagen Acerca de Mí">
+            <div class="carrusel">
+                <!--<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>-->
+                <div class="atras">
+                    <img id="atras" src="img/atras.svg" alt="atras" loading="lazy">
                 </div>
-                <div class="slick-slide slide-habilidades">
-                    <div class="texto-imagen">
-                        <h3>Habilidades</h3>
-                        <p>Texto sobre tus habilidades.</p>
-                        <a href="#habilidades">Ver videos</a> <!-- Botón para ir a la sección de habilidades -->
+
+                <div class="imagenes">
+                    <div id="img">
+                        <img class="img" src="img/imagen acerca.webp" alt="imagen acerca" loading="lazy">
                     </div>
-                    <img src="img/imagen habilidades.jpg" alt="Imagen Habilidades">
+                    <div id="texto" class="texto">
+                        <h3>Acerca</h3>
+                        <p>texto acerca texto acerca texto acerca texto acerca texto acerca texto acerca texto acerca texto acerca texto acerca texto acerca</p>
+                    </div>
                 </div>
-                <div class="slick-slide slide-contacto">
-                    <div class="texto-imagen">
-                        <h3>Contacto</h3>
-                        <!-- Contenido de Contacto -->
-                    </div>
-                    <img src="img/imagen contacto.jpg" alt="Imagen Contacto">
+
+                <div class="adelante" id="adelante">
+                    <img src="img/adelante.svg" alt="adelante" loading="lazy">
                 </div>
             </div>
-        </section>
+            
+            <div class="puntos" id="puntos"></div>
+            <script src="carrusel.js"></script>
         
         
-
         <main id="seccion-principal">
             <section class="seccion-1">
                 <div class="acerca de">
