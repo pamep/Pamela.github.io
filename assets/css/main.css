@@ -22,7 +22,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -3248,11 +3249,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #000000;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #000000;
 		}
 
 		.wrapper.style3 {
@@ -3260,7 +3261,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #000000;
 		}
 
 		.wrapper.fullscreen {
