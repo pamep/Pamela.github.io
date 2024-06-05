@@ -3909,3 +3909,17 @@ input, select, textarea {
 			}
 
 		}
+
+/* Estilos para el contenedor de los botones */
+#selector-idioma {
+    display: flex;
+    flex-direction: row; /* Los botones estarán en línea horizontal */
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    align-items: center; /* Centra verticalmente los botones */
+    margin-top: 20px; /* Ajusta el margen superior según tu preferencia */
+    margin-right: 20px; /* Ajusta el margen derecho según tu preferencia */
+}
+
+#selector-idioma button{
+	margin-right: 10px;
+}
