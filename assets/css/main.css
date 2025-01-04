@@ -2613,6 +2613,7 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+		
 
 /* List */
 
@@ -3919,6 +3920,32 @@ input, select, textarea {
 			}
 
 		}
+
+		/* General Styles */
+
+
+
+
+.gif-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Asegura que se ajuste bien al contenedor */
+}
+
+/* Media Queries para Responsividad */                                                                                                 
+@media (max-width: 768px) {
+    .gif-container {
+        max-width: 90%; /* Reducir el tamaño del contenedor en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .gif-container {
+        max-width: 100%; /* Ocupa el 100% del ancho en móviles */
+    }
+}
+
 
 /* Estilos para el contenedor de los botones */
 #selector-idioma {
