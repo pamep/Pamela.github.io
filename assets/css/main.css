@@ -3926,6 +3926,20 @@ input, select, textarea {
 
 
 
+.tooltip {
+	position: absolute;
+	background-color: #333;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 12px;
+	visibility: hidden; /* Inicialmente oculto */
+	transition: visibility 0.2s ease;
+	z-index: 1000;
+	transition: visibility 0.2s ease;
+ }
+		  
+
 .gif-container img {
     width: 100%;
     height: auto;
