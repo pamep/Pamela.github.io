@@ -16,7 +16,7 @@ elements.forEach(element => {
     const rect = element.getBoundingClientRect();
     tooltipElement.style.position = 'absolute';
     tooltipElement.style.top = `${rect.top + window.scrollY - tooltipElement.offsetHeight - 5}px`;
-    tooltipElement.style.left = `${rect.left + (rect.width - tooltipElement.offsetWidth) / 2}px`;
+    tooltipElement.style.left = `${rect.left + (rect.width - tooltipElement.offsetWidth) / 5}px`;
   });
 
   element.addEventListener('mouseout', () => {
